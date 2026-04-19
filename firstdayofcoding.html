@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>活动目录 - SJTU Programming Club</title>
+    <title>编程社团活动 - SJTU Programming Club</title>
     <style>
         * {
             margin: 0;
@@ -102,48 +102,43 @@
 
         article h2 {
             color: #FFD700;
-            margin: 25px 0 15px;
-            font-size: 1.3rem;
+            margin: 20px 0 15px;
+            padding: 10px;
+            border-left: 4px solid #AD1730;
         }
 
-        /* ===== EVENT LIST ===== */
-        .event-list {
-            list-style: none;
+        article p {
+            margin-bottom: 15px;
         }
 
-        .event-item {
+        .practice-section {
             background-color: #AD1730;
             padding: 20px;
-            border-radius: 10px;
-            margin-bottom: 15px;
-            transition: all 0.3s ease;
-        }
-
-        .event-item:hover {
-            background-color: #002B60;
-            transform: translateY(-2px);
-        }
-
-        .event-item a {
-            text-decoration: none;
-            color: #FFD700;
-        }
-
-        .event-item a:hover {
-            text-decoration: underline;
-        }
-
-        .event-item h3 {
-            color: white;
-            text-align: center;
-        }
-
-        .event-item img {
-            width: 100%;
-            max-height: 200px;
-            object-fit: cover;
             border-radius: 8px;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .news-card {
+            display: block;
+            border: 2px solid #FFD700;
+            background-color: rgba(255, 255, 255, 0.1);
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .news-card h2 {
+            border: none;
+            border-left: none;
+            padding: 0;
+        }
+
+        .news-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 15px 0;
         }
 
         footer {
@@ -163,36 +158,34 @@
         </header>
 
         <div class="logo">
-            <a href="../index.html" aria-label="Home page">
-                <img src="../images/Sjtu-logo-standard-red.png" alt="SJTU logo" height="100">
+            <a href="index.html" aria-label="Home page">
+                <img src="images/Sjtu-logo-standard-red.png" alt="SJTU logo" height="100">
             </a>
         </div>
 
-        <nav class="top-nav" aria-label="Main navigation">
+        <nav class="top-nav">
             
             
-            <a href="../documentations.html">摄影/视频</a>
+            <a href="documentations.html">摄影/视频</a>
             
         </nav>
 
         <article>
-            <h1>节目目录 - Events List</h1>
+            <h1>Coding Club - First Day</h1>
 
-            <ul class="event-list">
-                <li class="event-item">
-                    <a href="spellingbee.html">
-                        <h3>Spelling Bee Competition</h3>
-                    </a>
-                </li>
-                <li class="event-item">
-                    <a href="firstdayofcoding.html">
-                        <h3>Coding Club - First Day</h3>
-                    </a>
-                </li>
-                <li class="event-item">
-                    <h3>More events coming soon...</h3>
-                </li>
-            </ul>
+            <h2>Hello World</h2>
+            <p>Welcome to the first session of our coding club! Today we learned about basic HTML structure and how to create our first web page.</p>
+
+            <div class="practice-section">
+                <h2>Practice Exercise</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eos, quasi voluptatem corporis nisi, provident recusandae dolor architecto ea cupiditate quos commodi laborum amet sunt magni quo dignissimos nulla exercitationem?</p>
+            </div>
+
+            <div class="news-card">
+                <h2>Jaws Celebrates 50th Anniversary</h2>
+                <img src="https://s3.amazonaws.com/nightjarprod/content/uploads/sites/193/2025/08/12162437/07c34cbd-15e7-407b-b351-d73efdd7c563.jpg" alt="Jaws movie poster" height="200">
+                <p>In 2025 this year, we are celebrating the 50th anniversary of Steven Spielberg's Jaws, released originally in 1975.</p>
+            </div>
         </article>
 
         <footer>
